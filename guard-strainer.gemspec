@@ -5,7 +5,7 @@ require 'guard/strainer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'guard-strainer'
-  spec.version       = Guard::Strainer::VERSION
+  spec.version       = Guard::StrainerVersion::VERSION
   spec.authors       = ['Stafford Brunk']
   spec.email         = ['stafford.brunk@gmail.com']
   spec.description   = %q{Watch for changes in your chef-repo or cookbook and automatically run strainer}
