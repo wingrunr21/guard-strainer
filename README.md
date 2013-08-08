@@ -3,6 +3,9 @@
 
 ```guard-strainer``` will automatically execute a Strainerfile for a watched chef-repo or cookbook when it detects changes
 
+## Requirements
+* [strainer](https://github.com/customink/strainer) v3.2.1 or later
+
 ## Installation
 
 Add to your chef-repo or cookbook's Gemfile:
