@@ -1,0 +1,7 @@
+guard 'strainer' do
+  watch %r{^cookbooks/(.+)/}
+
+  # Comment the above and uncomment this line if you are using Strainer in standalone mode
+  # Make sure to set the :standalone option above!
+  # watch %r{(.+)%}
+end

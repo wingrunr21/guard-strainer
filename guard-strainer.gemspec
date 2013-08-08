@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Guard::StrainerVersion::VERSION
   spec.authors       = ['Stafford Brunk']
   spec.email         = ['stafford.brunk@gmail.com']
-  spec.description   = %q{Watch for changes in your chef-repo or cookbook and automatically run strainer}
+  spec.description   = %q{Watch for changes in your chef-repo or cookbook and automatically run Strainer}
   spec.summary       = %q{guard-strainer will automatically execute a Strainerfile for a watched chef-repo or cookbook when it detects changes}
   spec.homepage      = 'https://github.com/wingrunr21/guard-strainer'
   spec.license       = 'MIT'
@@ -19,9 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'guard', '>= 1.8.0'
+  spec.add_dependency 'strainer', '>= 3.2.1'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
-  spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rspec', '~> 2.13.0'
-  spec.add_development_dependency 'simplecov', '~> 0.7.1'
 end
