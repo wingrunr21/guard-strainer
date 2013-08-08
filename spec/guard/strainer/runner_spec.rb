@@ -29,6 +29,7 @@ describe Guard::Strainer::Runner do
     before do
       @paths = paths
       @paths[0] = 'spec/fixtures/cookbooks/git/metadata.rb'
+      @paths.sort!
     end
     it 'should strain all of the cookbooks' do
       subject.should_receive(:run!).with(@paths)

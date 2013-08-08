@@ -17,7 +17,7 @@ module Guard
       end
 
       def run_all!
-        paths = Dir[File.join('**', 'metadata.rb')]
+        paths = Dir[File.join('**', 'metadata.rb')].sort
         run!(paths)
       end
 
