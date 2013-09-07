@@ -49,3 +49,7 @@ Pull requests are welcome! Please try to follow these rules for contributions:
 
 ## Author
 [Stafford Brunk](https://github.com/wingrunr21)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wingrunr21/guard-strainer/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
